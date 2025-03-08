@@ -18,7 +18,7 @@ description:
 
 source-repository head
   type:     git
-  location: https://github.com/khuldraeseth/acme-rescue-a-uuid
+  location: https://github.com/khuldraeseth/acme-rescue-a-uuid.git
 
 common warnings
   ghc-options: -Wall
