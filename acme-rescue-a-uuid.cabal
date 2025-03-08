@@ -1,21 +1,24 @@
 cabal-version:   3.14
 name:            acme-rescue-a-uuid
 version:         0.1.0.0
-synopsis:        Eliminate needless UUID waste!
-
--- A longer description of the package.
-description:
-  Horrible websites like https://wasteaguid.info/ are throwing away
-  irreplaceable resources at the expense of the world. Help stop this blight on
-  our digital environment by rescuing UUIDs instead of creating new ones!
-
 license:         MIT
 license-file:    LICENSE
 author:          khuldraeseth
 maintainer:      28711596+khuldraeseth@users.noreply.github.com
+homepage:        https://github.com/khuldraeseth/acme-rescue-a-uuid
+bug-reports:     https://github.com/khuldraeseth/acme-rescue-a-uuid/issues
 category:        Acme
 build-type:      Simple
 extra-doc-files: CHANGELOG.md
+synopsis:        Eliminate needless UUID waste!
+description:
+  Horrible websites like <https://wasteaguid.info/> are throwing away
+  irreplaceable resources at the expense of the world. Help stop this blight on
+  our digital environment by rescuing UUIDs instead of creating new ones!
+
+source-repository head
+  type:     git
+  location: https://github.com/khuldraeseth/acme-rescue-a-uuid
 
 common warnings
   ghc-options: -Wall
